@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Pratham Tank | Web Developer Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Pratham Tank, a Web Developer specializing in building clean, responsive, and functional web applications.">
+  <meta name="keywords" content="Portfolio, Web Developer, HTML, CSS, JavaScript, Responsive Design">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header & Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Pratham<span>.</span></a>
+
+      <!-- Navigation Menu Links -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-wrapper">
+      <!-- Left side: Introduction Text & Call to Action -->
+      <div class="hero-content">
+        <span class="hero-tag">Welcome to my profile</span>
+        <h1 class="hero-title">Hi, I'm <span>Pratham Tank</span></h1>
+        <p class="hero-subtitle">
+          I am a passionate Web Developer and Designer. I specialize in building responsive, user-friendly, and clean
+          websites that solve real-world problems.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#skills" class="btn btn-secondary">My Skills</a>
+        </div>
+      </div>
+
+      <!-- Right side: Profile Card -->
+      <div class="hero-visual">
+        <div class="profile-card">
+          <div class="profile-img-container">
+            <!-- Simple User Profile Icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h2 class="profile-name">Pratham Tank</h2>
+          <p class="profile-title">Web Developer &amp; Designer</p>
+          <span class="profile-badge">Open for Projects</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <p class="section-subtitle">Get to know my professional focus areas and my background.</p>
+
+      <div class="about-wrapper">
+        <!-- Highlights Grid of Focus Cards -->
+        <div class="about-cards-container">
+          <!-- Card 1: Frontend Development -->
+          <div class="about-card">
+            <div class="about-card-icon">
+              <!-- Monitor Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h4>Frontend Development</h4>
+            <p>Creating beautiful, responsive interfaces using modern HTML, CSS, and JavaScript.</p>
+          </div>
+
+          <!-- Card 2: Backend Development -->
+          <div class="about-card">
+            <div class="about-card-icon">
+              <!-- Database Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+              </svg>
+            </div>
+            <h4>Backend Development</h4>
+            <p>Designing secure server logic, custom REST APIs, and database structures.</p>
+          </div>
+        </div>
+
+        <!-- Background Biography Text -->
+        <div class="about-info">
+          <h3>Making Clean &amp; User-Focused Web Solutions</h3>
+          <p>
+            I am a 3rd year Information Technology student. I enjoy writing clean, readable, and well-structured
+            code. My goal is to build digital products that are easy to use and perform exceptionally well on all screen
+            sizes.
+          </p>
+          <p>
+            I believe that good communication, clean designs, and robust planning are the key ingredients to successful
+            project outcomes.
+          </p>
+          <a href="#contact" class="btn btn-primary">Start a Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <p class="section-subtitle">Here are the key technical skills I bring to every web development project.</p>
+
+      <div class="skills-grid">
+        <!-- Category 1: Coding Languages -->
+        <div class="skills-category">
+          <h3 class="category-title">
+            <!-- Code Icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            Coding Languages
+          </h3>
+          <div class="skills-list">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Python</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Technical & Creative Skills -->
+        <div class="skills-category">
+          <h3 class="category-title">
+            <!-- Server/Tool Icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+            </svg>
+            Technical &amp; Creative
+          </h3>
+          <div class="skills-list">
+            <span class="skill-tag">SQL Database</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">API Integration</span>
+            <span class="skill-tag">Video Editing</span>
+            <span class="skill-tag">Graphic Designing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <p class="section-subtitle">Have a question or want to work together? Drop me a message below.</p>
+
+      <div class="contact-wrapper">
+        <!-- Contact Details -->
+        <div class="contact-info">
+          <h3>Let's Keep In Touch</h3>
+          <p class="contact-desc">
+            Feel free to reach out via email or phone. You can also find me on professional social networks below.
+          </p>
+
+          <div class="contact-methods">
+            <!-- Method 1: Email -->
+            <div class="contact-method-card">
+              <div class="contact-method-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-method-text">
+                <h4>Email Address</h4>
+                <p>prathamntank@gmail.com</p>
+              </div>
+            </div>
+
+            <!-- Method 2: Phone -->
+            <div class="contact-method-card">
+              <div class="contact-method-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div class="contact-method-text">
+                <h4>Phone Number</h4>
+                <p>+91 9408044341</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Link Icons -->
+          <div class="social-links">
+            <a href="https://github.com/PrathamTank" target="_blank" class="social-btn" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/pratham-tank-6bb015276/" target="_blank" class="social-btn"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="contact-form-container">
+          <form id="portfolio-contact-form">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="yourname@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="Message Subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">Pratham<span>.</span></div>
+      <p class="footer-text">&copy; 2026 Pratham Tank. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // 1. Mobile Menu Open & Close
+      const menuBtn = document.getElementById('menu-btn');
+      const navLinks = document.getElementById('nav-links');
+
+      menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      });
+
+      // Close mobile menu when a navigation item is clicked
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          menuBtn.classList.remove('active');
+          navLinks.classList.remove('active');
+        });
+      });
+
+
+
+      // 2. Simple Form Submission with success alert
+      const form = document.getElementById('portfolio-contact-form');
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        // Change submit button text temporarily
+        const submitBtn = form.querySelector('.submit-btn');
+        submitBtn.innerText = 'Sending...';
+        submitBtn.disabled = true;
+
+        setTimeout(() => {
+          alert('Message sent successfully! Thank you for getting in touch.');
+
+          // Reset form input values
+          form.reset();
+          submitBtn.innerText = 'Send Message';
+          submitBtn.disabled = false;
+        }, 1000);
+      });
+
+      // 3. Highlight Nav Link on Scroll
+      const sections = document.querySelectorAll('section');
+      const navItems = document.querySelectorAll('.nav-links a');
+
+      window.addEventListener('scroll', () => {
+        let currentSectionId = '';
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          if (window.scrollY >= (sectionTop - 150)) {
+            currentSectionId = section.getAttribute('id');
+          }
+        });
+
+        navItems.forEach(item => {
+          item.classList.remove('active');
+          if (item.getAttribute('href').slice(1) === currentSectionId) {
+            item.classList.add('active');
+          }
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>
